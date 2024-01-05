@@ -1,0 +1,11 @@
+pipeline {
+   agent any
+   stages {
+    stage ('tesjob') {
+	  steps {
+	    sh "echo happy new year Anvipapa"
+		}
+		}
+    }		
+
+}
